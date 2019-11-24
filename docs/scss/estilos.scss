@@ -1,0 +1,42 @@
+/* Patron de colores */
+$principal: #E9384f; //Definici0n de la variable para el color principal
+
+/* Sobreescribiendo los estilos de Boostrap */
+.bg-primary{
+    background-color: $principal !important;
+}//fondo del color
+.text-primary{
+    color: $principal !important;
+}//color de la letra principal
+.btn-primary{
+    background-color: $principal !important;
+    border-color: darken($principal, 20%) !important;
+}//color del boton y borde normal
+.btn-primary:hover,
+.btn-primary:focus{
+    background-color: darken($principal, 10%) !important;
+}//color del boton cuando colocamos el cursor encima ycuando tiene el foco
+.btn-primary:active{
+    background-color: darken($principal, 20%) !important;
+    border-color: darken($principal, 30%) !important;
+}//color boton cuando hacemos clic
+.btn-primary:focus{
+    box-shadow: 0 0 0 0.2rem rgba($principal, .5) !important;
+}//sombra del boton cuando tiene el foco
+
+/* Estilos de disenno CSS */
+html{
+    font-size: 13px;
+    color: #44484a;
+}
+.card:hover{
+    box-shadow: 0 0 10px #0c0c0c3b;
+}
+
+
+// Show de los medias queries
+@media(min-width: 768px){
+    html {
+        font-size: 16px;
+    }
+}

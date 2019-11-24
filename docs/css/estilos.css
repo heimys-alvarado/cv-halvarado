@@ -1,0 +1,46 @@
+/* Patron de colores */
+/* Sobreescribiendo los estilos de Boostrap */
+.bg-primary {
+  background-color: #E9384f !important;
+}
+
+.text-primary {
+  color: #E9384f !important;
+}
+
+.btn-primary {
+  background-color: #E9384f !important;
+  border-color: #a81326 !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #d61830 !important;
+}
+
+.btn-primary:active {
+  background-color: #a81326 !important;
+  border-color: #7a0e1c !important;
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(233, 56, 79, 0.5) !important;
+}
+
+/* Estilos de disenno CSS */
+html {
+  font-size: 13px;
+  color: #44484a;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px #0c0c0c3b;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
